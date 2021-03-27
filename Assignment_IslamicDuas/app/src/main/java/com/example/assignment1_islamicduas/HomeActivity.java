@@ -26,6 +26,11 @@ public class HomeActivity extends AppCompatActivity {
         arrayListDuas.add("8");
         arrayListDuas.add("9");
         arrayListDuas.add("10");
+        arrayListDuas.add("11");
+        arrayListDuas.add("12");
+        arrayListDuas.add("13");
+        arrayListDuas.add("14");
+        arrayListDuas.add("15");
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1 ,arrayListDuas);
        listView.setAdapter(arrayAdapter);
     }
