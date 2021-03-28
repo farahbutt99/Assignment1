@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.graphics.Color;
+import android.media.Image;
 import android.media.MediaPlayer;
 import android.os.Build;
 import android.os.Bundle;
@@ -17,6 +18,7 @@ import android.text.Spanned;
 import android.text.style.ForegroundColorSpan;
 import android.util.Log;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -27,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         MediaPlayer mp = MediaPlayer.create(this,R.raw.bismillah);
-        TextView textView= findViewById(R.id.textView2);
-        textView.animate().alpha(0).scaleXBy(0.5f).scaleYBy(0.5f).setDuration(8000);
+        ImageView imageView = findViewById(R.id.imageView);
+        imageView.animate().alpha(0).scaleXBy(0.5f).scaleYBy(0.5f).setDuration(8000);
         mp.start();
         new Handler().postDelayed(new Runnable(){
             @Override

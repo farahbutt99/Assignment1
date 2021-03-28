@@ -8,17 +8,14 @@
     tools:context=".MainActivity">
 
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="بِس٘مِ اللہِ الرَّح٘مٰنِ الرّحِی٘م  "
-        android:textColor="#6E0707"
-        android:textSize="30sp"
-        android:textStyle="bold"
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="263dp"
+        android:layout_height="246dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bismillah" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
