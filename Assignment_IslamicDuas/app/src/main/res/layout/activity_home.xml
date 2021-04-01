@@ -4,7 +4,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/bg3"
+    android:background="@drawable/backgroundmain"
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:layout_marginBottom="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,28 +22,33 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/jameelnoorinastaleeqregular"
+            android:text="اسلامی دعائیں"
+            android:background="@drawable/bgclr"
             android:textColor="@color/black"
-            android:textSize="36sp"
-            android:text="اسلامی دعائیں" />
-    </LinearLayout>
-    <ScrollView
+            android:textSize="36sp" />
+
+        <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginTop="80dp">
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
                 <LinearLayout
                     android:id="@+id/linearlayoutdua1"
                     android:layout_width="320dp"
-                    android:layout_height="70dp"
+                    android:layout_height="50dp"
                     android:layout_gravity="center"
-                    android:layout_marginTop="30dp"
+                    android:layout_marginTop="10dp"
                     android:background="@drawable/bgclr1"
-                    android:orientation="horizontal"
                     android:onClick="dua1"
+                    android:orientation="horizontal"
                     android:padding="3dp">
+
                     <View
                         android:layout_width="0dp"
                         android:layout_height="0dp"
@@ -57,10 +63,10 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15dp"
-                            android:layout_marginTop="15dp"
+                            android:layout_marginTop="5dp"
                             android:layout_marginRight="15dp"
-                            android:layout_marginBottom="15dp"
-                            android:fontFamily="sans-serif"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/jameelnoorinastaleeqregular"
                             android:text="علم میں اضافہ کی دعا"
                             android:textColor="@color/black"
                             android:textSize="23sp"
@@ -69,20 +75,22 @@
 
                     <ImageView
                         android:id="@+id/dua1"
-                        android:layout_width="70dp"
-                        android:layout_height="70dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
                         app:srcCompat="@drawable/dua1" />
                 </LinearLayout>
+
                 <LinearLayout
                     android:id="@+id/linearlayoutdua2"
-                    android:onClick="dua2"
                     android:layout_width="320dp"
-                    android:layout_height="70dp"
+                    android:layout_height="50dp"
                     android:layout_gravity="center"
-                    android:layout_marginTop="30dp"
+                    android:layout_marginTop="10dp"
                     android:background="@drawable/bgclr2"
+                    android:onClick="dua2"
                     android:orientation="horizontal"
                     android:padding="3dp">
+
                     <View
                         android:layout_width="0dp"
                         android:layout_height="0dp"
@@ -97,10 +105,10 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15dp"
-                            android:layout_marginTop="15dp"
+                            android:layout_marginTop="5dp"
                             android:layout_marginRight="15dp"
-                            android:layout_marginBottom="15dp"
-                            android:fontFamily="sans-serif"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/jameelnoorinastaleeqregular"
                             android:text="سفر کی دعا"
                             android:textColor="@color/black"
                             android:textSize="23sp"
@@ -109,11 +117,433 @@
 
                     <ImageView
                         android:id="@+id/dua2"
-                        android:layout_width="70dp"
-                        android:layout_height="70dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
                         app:srcCompat="@drawable/dua2" />
                 </LinearLayout>
-            </LinearLayout>
 
+                <LinearLayout
+                    android:id="@+id/linearlayoutdua3"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bgclr3"
+                    android:onClick="dua3"
+                    android:orientation="horizontal"
+                    android:padding="3dp">
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/jameelnoorinastaleeqregular"
+                            android:text="آئینہ دیکھنے کی دعا"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/dua3"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        app:srcCompat="@drawable/dua3" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearlayoutdua4"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bgclr4"
+                    android:onClick="dua4"
+                    android:orientation="horizontal"
+                    android:padding="3dp">
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/jameelnoorinastaleeqregular"
+                            android:text="والدین کے لیےدعا"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/dua4"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        app:srcCompat="@drawable/dua4" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearlayoutdua5"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bgclr5"
+                    android:onClick="dua5"
+                    android:orientation="horizontal"
+                    android:padding="3dp">
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/jameelnoorinastaleeqregular"
+                            android:text="دودھ پینے کی دعا"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/dua5"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        app:srcCompat="@drawable/dua5" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearlayoutdua6"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bgclr6"
+                    android:onClick="dua6"
+                    android:orientation="horizontal"
+                    android:padding="3dp">
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/jameelnoorinastaleeqregular"
+                            android:text="کھانا کھانےسے پہلےکی دعا"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/dua6"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        app:srcCompat="@drawable/dua6" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearlayoutdua7"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bgclr7"
+                    android:onClick="dua7"
+                    android:orientation="horizontal"
+                    android:padding="3dp">
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/jameelnoorinastaleeqregular"
+                            android:text="کھانا کھانےکے بعدکی دعا"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/dua7"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        app:srcCompat="@drawable/dua7" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearlayoutdua8"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bgclr8"
+                    android:onClick="dua8"
+                    android:orientation="horizontal"
+                    android:padding="3dp">
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/jameelnoorinastaleeqregular"
+                            android:text="گھر میں داخل ہونے کی دعا"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/dua8"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        app:srcCompat="@drawable/dua8" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearlayoutdua9"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bgclr9"
+                    android:onClick="dua9"
+                    android:orientation="horizontal"
+                    android:padding="3dp">
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/jameelnoorinastaleeqregular"
+                            android:text="گھر سے نکلنے کی دعا"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/dua9"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        app:srcCompat="@drawable/dua9" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearlayoutdua10"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bgclr10"
+                    android:onClick="dua10"
+                    android:orientation="horizontal"
+                    android:padding="3dp">
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/jameelnoorinastaleeqregular"
+                            android:text="مسجد میں داخل ہونے کی دعا"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/dua10"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        app:srcCompat="@drawable/dua10" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearlayoutdua11"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bgclr1"
+                    android:onClick="dua11"
+                    android:orientation="horizontal"
+                    android:padding="3dp">
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/jameelnoorinastaleeqregular"
+                            android:text="مسجد سے باہر نکلنے کی دعا"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/dua11"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        app:srcCompat="@drawable/dua11" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearlayoutdua12"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/bgclr2"
+                    android:onClick="dua12"
+                    android:orientation="horizontal"
+                    android:padding="3dp">
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/jameelnoorinastaleeqregular"
+                            android:text="اذان کے بعد کی دعا"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/dua12"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        app:srcCompat="@drawable/dua12" />
+                </LinearLayout>
+            </LinearLayout>
         </ScrollView>
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
