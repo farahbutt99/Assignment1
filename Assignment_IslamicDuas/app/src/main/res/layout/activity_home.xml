@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
-        xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:background="@drawable/backgroundmain"
@@ -26,7 +26,7 @@
             android:text="اسلامی دعائیں"
             android:background="@drawable/bgclr"
             android:textColor="@color/black"
-            android:textSize="36sp" />
+            android:textSize="25sp" />
 
         <ScrollView
             android:layout_width="match_parent"
@@ -62,14 +62,11 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="15dp"
-                            android:layout_marginTop="5dp"
                             android:layout_marginRight="15dp"
-                            android:layout_marginBottom="5dp"
                             android:fontFamily="@font/jameelnoorinastaleeqregular"
                             android:text="علم میں اضافہ کی دعا"
                             android:textColor="@color/black"
-                            android:textSize="23sp"
+                            android:textSize="20sp"
                             android:textStyle="bold" />
                     </LinearLayout>
 
@@ -104,14 +101,11 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="15dp"
-                            android:layout_marginTop="5dp"
                             android:layout_marginRight="15dp"
-                            android:layout_marginBottom="5dp"
                             android:fontFamily="@font/jameelnoorinastaleeqregular"
                             android:text="سفر کی دعا"
                             android:textColor="@color/black"
-                            android:textSize="23sp"
+                            android:textSize="20sp"
                             android:textStyle="bold" />
                     </LinearLayout>
 
@@ -146,14 +140,11 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="15dp"
-                            android:layout_marginTop="5dp"
                             android:layout_marginRight="15dp"
-                            android:layout_marginBottom="5dp"
                             android:fontFamily="@font/jameelnoorinastaleeqregular"
                             android:text="آئینہ دیکھنے کی دعا"
                             android:textColor="@color/black"
-                            android:textSize="23sp"
+                            android:textSize="20sp"
                             android:textStyle="bold" />
                     </LinearLayout>
 
@@ -188,14 +179,11 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="15dp"
-                            android:layout_marginTop="5dp"
                             android:layout_marginRight="15dp"
-                            android:layout_marginBottom="5dp"
                             android:fontFamily="@font/jameelnoorinastaleeqregular"
                             android:text="والدین کے لیےدعا"
                             android:textColor="@color/black"
-                            android:textSize="23sp"
+                            android:textSize="20sp"
                             android:textStyle="bold" />
                     </LinearLayout>
 
@@ -230,14 +218,11 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="15dp"
-                            android:layout_marginTop="5dp"
                             android:layout_marginRight="15dp"
-                            android:layout_marginBottom="5dp"
                             android:fontFamily="@font/jameelnoorinastaleeqregular"
                             android:text="دودھ پینے کی دعا"
                             android:textColor="@color/black"
-                            android:textSize="23sp"
+                            android:textSize="20sp"
                             android:textStyle="bold" />
                     </LinearLayout>
 
@@ -272,11 +257,8 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="15dp"
-                            android:layout_marginTop="5dp"
-                            android:layout_marginRight="15dp"
-                            android:layout_marginBottom="5dp"
                             android:fontFamily="@font/jameelnoorinastaleeqregular"
+                            android:layout_marginRight="15dp"
                             android:text="کھانا کھانےسے پہلےکی دعا"
                             android:textColor="@color/black"
                             android:textSize="20sp"
@@ -314,10 +296,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="15dp"
-                            android:layout_marginTop="5dp"
                             android:layout_marginRight="15dp"
-                            android:layout_marginBottom="5dp"
                             android:fontFamily="@font/jameelnoorinastaleeqregular"
                             android:text="کھانا کھانےکے بعدکی دعا"
                             android:textColor="@color/black"
@@ -356,10 +335,9 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="15dp"
-                            android:layout_marginTop="5dp"
+
+
                             android:layout_marginRight="15dp"
-                            android:layout_marginBottom="5dp"
                             android:fontFamily="@font/jameelnoorinastaleeqregular"
                             android:text="گھر میں داخل ہونے کی دعا"
                             android:textColor="@color/black"
@@ -398,14 +376,11 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="15dp"
-                            android:layout_marginTop="5dp"
                             android:layout_marginRight="15dp"
-                            android:layout_marginBottom="5dp"
                             android:fontFamily="@font/jameelnoorinastaleeqregular"
                             android:text="گھر سے نکلنے کی دعا"
                             android:textColor="@color/black"
-                            android:textSize="23sp"
+                            android:textSize="20sp"
                             android:textStyle="bold" />
                     </LinearLayout>
 
@@ -440,10 +415,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="15dp"
-                            android:layout_marginTop="5dp"
-                            android:layout_marginRight="10dp"
-                            android:layout_marginBottom="5dp"
+                            android:layout_marginRight="15dp"
                             android:fontFamily="@font/jameelnoorinastaleeqregular"
                             android:text="مسجد میں داخل ہونے کی دعا"
                             android:textColor="@color/black"
@@ -482,10 +454,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="15dp"
-                            android:layout_marginTop="5dp"
                             android:layout_marginRight="15dp"
-                            android:layout_marginBottom="5dp"
                             android:fontFamily="@font/jameelnoorinastaleeqregular"
                             android:text="مسجد سے باہر نکلنے کی دعا"
                             android:textColor="@color/black"
@@ -525,14 +494,11 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="15dp"
-                            android:layout_marginTop="5dp"
                             android:layout_marginRight="15dp"
-                            android:layout_marginBottom="5dp"
                             android:fontFamily="@font/jameelnoorinastaleeqregular"
-                            android:text="اذان کے بعد کی دعا"
+                            android:text="غصہ آنے کے وقت کی دعا"
                             android:textColor="@color/black"
-                            android:textSize="23sp"
+                            android:textSize="20sp"
                             android:textStyle="bold" />
                     </LinearLayout>
 

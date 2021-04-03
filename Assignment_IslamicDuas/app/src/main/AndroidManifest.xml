@@ -9,16 +9,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Assignment1_IslamicDuas">
-        <activity android:name=".Dua1"></activity>
-        <activity android:name=".HomeActivity" />
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".Dua12"></activity>
+        <activity android:name=".Dua11" />
+        <activity android:name=".Dua10" />
+        <activity android:name=".Dua9" />
+        <activity android:name=".Dua8" />
+        <activity android:name=".Dua7" />
+        <activity android:name=".Dua6" />
+        <activity android:name=".Dua5" />
+        <activity android:name=".Dua4" />
+        <activity android:name=".Dua3" />
+        <activity android:name=".Dua2" />
+        <activity android:name=".Dua1" />
+        <activity android:name=".HomeActivity">
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
+        <activity android:name=".MainActivity" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
