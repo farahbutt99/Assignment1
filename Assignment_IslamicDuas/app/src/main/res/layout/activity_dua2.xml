@@ -44,10 +44,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/jameelnoorinastaleeqregular"
-                    android:text=""
+                    android:text="سفر کی دعا"
                     android:layout_marginRight="10dp"
                     android:textColor="@color/black"
-                    android:textSize="36sp" />
+                    android:textStyle="bold"
+                    android:textSize="20sp" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -62,10 +63,10 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/arabictypesettingregular"
                     android:textAlignment="center"
-                    android:text=""
+                    android:text="سُبْحَانَ الَّذِيْ سَخَّرَ لَنَا هٰذَا وَمَا كُنَّا لَه مُقْرِنِيْنَ وَإِنَّـآ إِلىٰ رَبِّـنَا لَمُنْقَلِبُوْنَ"
                     android:textColor="@color/black"
-                    android:layout_marginRight="70dp"
-                    android:textSize="36sp"
+                    android:layout_marginRight="30dp"
+                    android:textSize="30sp"
                     android:gravity="center_horizontal" />
             </LinearLayout>
             <LinearLayout
@@ -81,9 +82,10 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/jameelnoorinastaleeqregular"
                     android:layout_marginRight="10dp"
+                    android:textStyle="bold"
                     android:text="ترجمہ"
                     android:textColor="@color/black"
-                    android:textSize="36sp" />
+                    android:textSize="20sp" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -98,12 +100,12 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/jameelnoorinastaleeqregular"
                     android:textAlignment="center"
-                    android:layout_marginRight="40dp"
-                    android:layout_marginLeft="10dp"
-                    android:text=""
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="اللہ تعالی پاک ہے جس نے اس سواری کو ہمارے قبضہ میں دے دیا اور اس کی قدرت کے بغیر ہم اسے قبضہ میں کرنے والے نہ تھے اور بلاشبہ ہم کو اپنے رب کی طرف جانا ہے"
                     android:textColor="@color/black"
                     android:gravity="center_horizontal"
-                    android:textSize="30sp" />
+                    android:textSize="20sp" />
             </LinearLayout>
         </LinearLayout>
         <LinearLayout
@@ -111,7 +113,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="80dp">
-                        <LinearLayout
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
                 <ImageView

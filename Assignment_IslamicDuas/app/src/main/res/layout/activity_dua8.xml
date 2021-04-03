@@ -44,7 +44,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/jameelnoorinastaleeqregular"
-                    android:text=""
+                    android:text="گھر میں داخل ہونے کی دعا"
                     android:layout_marginRight="10dp"
                     android:textColor="@color/black"
                     android:textSize="36sp" />
