@@ -6,6 +6,9 @@
     android:layout_height="match_parent"
     android:background="@drawable/backgroundmain"
     tools:context=".Dua9">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -46,8 +49,9 @@
                     android:fontFamily="@font/jameelnoorinastaleeqregular"
                     android:text="گھر سے نکلنے کی دعا"
                     android:layout_marginRight="10dp"
+                    android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:textSize="36sp" />
+                    android:textSize="25sp" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -62,10 +66,11 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/arabictypesettingregular"
                     android:textAlignment="center"
-                    android:text=""
+                    android:text="بِسْمِ اللَّهِ، تَوَكَّلْتُ عَلَى اللَّهِ، لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ"
                     android:textColor="@color/black"
-                    android:layout_marginRight="70dp"
-                    android:textSize="36sp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="30sp"
                     android:gravity="center_horizontal" />
             </LinearLayout>
             <LinearLayout
@@ -82,8 +87,9 @@
                     android:fontFamily="@font/jameelnoorinastaleeqregular"
                     android:layout_marginRight="10dp"
                     android:text="ترجمہ"
+                    android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:textSize="36sp" />
+                    android:textSize="25sp" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -100,10 +106,10 @@
                     android:textAlignment="center"
                     android:layout_marginRight="40dp"
                     android:layout_marginLeft="10dp"
-                    android:text=""
+                    android:text="میں اللہ ہی کے نام کے ساتھ نکلا ، (اور) میں نے اللہ پر بھروسہ کیا ، گناہوں سے ہھرنے اور عبادت کرنے کی طاقت اللہ ہی کی طرف سے ہے"
                     android:textColor="@color/black"
                     android:gravity="center_horizontal"
-                    android:textSize="30sp" />
+                    android:textSize="20sp" />
             </LinearLayout>
         </LinearLayout>
     <LinearLayout
@@ -146,5 +152,5 @@
         </LinearLayout>
     </LinearLayout>
     </LinearLayout>
-
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
